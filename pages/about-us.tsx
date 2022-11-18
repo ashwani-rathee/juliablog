@@ -15,11 +15,11 @@ const AboutUs = () => {
         <PageLayout PAGE_SEO={PAGE_SEO} home>
             <section className='container px-3 md:pb-20 md:pt-10 pt-20'>
                 <div className="">
-                    <a href="https://webexpe.com/" target="_blank" rel="noopener noreferrer" className="block md:w-[15%] w-[50%] ">
+                    {/* <a href="https://webexpe.com/" target="_blank" rel="noopener noreferrer" className="block md:w-[15%] w-[50%] ">
                         <img src="/images/YT Logo.png" alt="webexpe.com" className="rounded-lg overflow-hidden" />
-                    </a>
+                    </a> */}
                     <Text title className='mb-5 mt-10 dark:text-sky-400 text-sky-600'>
-                        Hi we are WebExpe.
+                        Hi, I am Ashwani Rathee
                     </Text>
                     <Text subtitle className='text-xl mb-5'>
                         This is an open source blog template which can help you start a simple static blog.
@@ -31,7 +31,7 @@ const AboutUs = () => {
                         If you have a github account you can clone the project or use it as a template or else you can simply download the code from <a href="https://github.com/webexpe13/blog-template-using-nextjs-typescript-tailwindcss" className="underline font-bold">here</a>.
                     </Text>
 
-                    <div className="flex flex-wrap justify-between">
+                    {/* <div className="flex flex-wrap justify-between">
                         <div className="md:w-auto w-full my-5">
                             <Text subtitle className='text-3xl font-medium'>
                                 Features
@@ -96,7 +96,7 @@ const AboutUs = () => {
                             For any any queries related to this project / template feel free to connect with us at <u>webexpe13@gmail.com</u>.
                             You can also post any comments on our <a href="https://github.com/webexpe13/blog-template-using-nextjs-typescript-tailwindcss/discussions" target="_blank" rel="noopener noreferrer"><u><i>github discussions</i></u></a>.
                         </Text>
-                    </div>
+                    </div> */}
                 </div>
             </section>
         </PageLayout>

@@ -12,11 +12,11 @@ const Home = () => {
       <section className='w-full md:pt-[100px] md:pb-[70px] pt-[130px] pb-20 mb-10 dark:bg-slate-800 bg-slate-200'>
         <div className="container text-center px-3">
           <Text title className='text-3xl'>
-            Blog template using Next Js, Typescript and Taildwind CSS
+            Julia Blog
           </Text>
 
           <Text p className="mt-3 text-xl">
-            This is a simple and static component based blog template for everyone.
+            Blog Posts on Julia
           </Text>
 
           <div className='flex justify-center mt-5 flex-wrap '>
@@ -26,22 +26,22 @@ const Home = () => {
             <LinkTo href="/pages/about-us.tsx" passHref className='flex items-center justify-center rounded-md bg-blue-600 px-4 pb-2 text-white hover:text-white shadow-lg hover:shadow-none transition-all mb-3 md:mx-5 mx-2'>
               <span className='text-xl pt-2 block'>About</span>
             </LinkTo>
-            <LinkTo href="/pages/tutorial/all-components.tsx" passHref className='flex items-center justify-center rounded-md bg-blue-600 px-4 pb-2 text-white hover:text-white shadow-lg hover:shadow-none transition-all mb-3 md:mx-5 mx-2'>
+            {/* <LinkTo href="/pages/tutorial/all-components.tsx" passHref className='flex items-center justify-center rounded-md bg-blue-600 px-4 pb-2 text-white hover:text-white shadow-lg hover:shadow-none transition-all mb-3 md:mx-5 mx-2'>
               <span className='text-xl pt-2 block'>Components</span>
-            </LinkTo>
+            </LinkTo> */}
 
-            <a href="https://www.buymeacoffee.com/webexpe13z" target="_blank" rel="noopener noreferrer" className='flex items-center justify-center rounded-md bg-blue-600 px-4 pb-2 text-white hover:text-white shadow-lg hover:shadow-none transition-all mb-3 md:mx-5 mx-2'>
+            {/* <a href="https://www.buymeacoffee.com/webexpe13z" target="_blank" rel="noopener noreferrer" className='flex items-center justify-center rounded-md bg-blue-600 px-4 pb-2 text-white hover:text-white shadow-lg hover:shadow-none transition-all mb-3 md:mx-5 mx-2'>
               <span className='text-xl pt-2 block'>Support Us</span>
-            </a>
+            </a> */}
           </div>
         </div>
       </section>
       <div className="container mx-auto lg:px-[15px] px-0">
         <div className={'flex flex-wrap'}>
           <FeaturedArticleSection />
-          <h1 className='px-3 w-full mb-5 text-xl md:text-3xl font-medium'>Checkout the below articles on how to use different layouts and components</h1>
+          {/* <h1 className='px-3 w-full mb-5 text-xl md:text-3xl font-medium'>Checkout the below articles on how to use different layouts and components</h1>
           <hr className='border-1 mb-5 w-[98%] mx-auto' />
-          <HomeNonFeatureArticles />
+          <HomeNonFeatureArticles /> */}
         </div>
       </div>
     </PageLayout>

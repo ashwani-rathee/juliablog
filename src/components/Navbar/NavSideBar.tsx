@@ -39,7 +39,7 @@ const NavSidebar = ({ openSidebar = false, closeNavSidebar, navSetup, changeThem
 
             <aside className={combineClasses(classes.nav_sidebar_wrapper, openSidebar && classes.open, 'dark:bg-slate-900 dark:text-white bg-white text-black')}>
                 <div className='flex items-center justify-between pb-3' onClick={closeNavSidebar}>
-                    <p className=''>menu</p>
+                    <p className=''>Menu</p>
                     <div><MdOutlineClose className='text-slate-800 dark:text-white text-[25px]' /></div>
                 </div>
                 <hr />
@@ -116,7 +116,7 @@ const NavSidebar = ({ openSidebar = false, closeNavSidebar, navSetup, changeThem
                     </button>
                 </div>
                 <hr />
-                <div className='my-5'>
+                {/* <div className='my-5'>
                     <p className='text-sm font-light dark:text-gray-400 text-gray-500 mb-1'>Copyright © 2022</p>
                     <LinkTo href="/privacy-policy" passHref className='text-sm font-light dark:text-gray-400 text-gray-500 pr-3'>
                         Privacy Policy
@@ -124,7 +124,7 @@ const NavSidebar = ({ openSidebar = false, closeNavSidebar, navSetup, changeThem
                     <LinkTo href="/terms-and-condition" passHref className='text-sm font-light dark:text-gray-400 text-gray-500'>
                         Terms and Conditions
                     </LinkTo>
-                </div>
+                </div> */}
             </aside>
         </>
     )
